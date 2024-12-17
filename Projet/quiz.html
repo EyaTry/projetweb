@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - No Lives</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">EYA <span>TRABELSI</span></h1>
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="education.html">Education</a>
+          <a href="experience.html">Experience</a>
+          <a href="skills.html">Skills</a>
+          <a href="quiz.html" class="active">Quiz</a>
+          <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
+
+    <section class="quiz-section" id="quiz">
+        <h2>Quiz</h2>
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <div class="question-number">
+                    Question <span class="current-question">1</span>/<span class="total-questions">5</span>
+                </div>
+                <div class="timer">
+                  Time left: <span class="time-left">30</span> s
+              </div>
+            </div>
+
+            <div class="progress-bar-container">
+                <div class="progress-bar"></div>
+            </div>
+
+            <div class="question">
+                <p class="question-text">Quelle est votre question ici ?</p>
+            </div>
+
+            <div class="answers">
+                <button class="answer">Réponse 1</button>
+                <button class="answer">Réponse 2</button>
+                <button class="answer">Réponse 3</button>
+                <button class="answer">Réponse 4</button>
+                <button class="answer">Réponse 5</button>
+            </div>
+
+            <div class="feedback">
+                <p class="feedback-text"></p>
+            </div>
+
+            <div class="result">
+                <p class="result-message"></p>
+                <button class="restart">Recommencer</button>
+            </div>
+        </div>
+    </section>
+
+    <script defer src="quiz.js"></script>
+</body>
+</html>
